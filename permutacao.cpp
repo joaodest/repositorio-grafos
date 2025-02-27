@@ -65,7 +65,7 @@ public:
             ciclos_unicos.insert(ciclo);
         }
 
-        cout << "Ciclos encontrados:" << endl;
+        cout << "Ciclos encontrados: " << ciclos_unicos.size() << endl;
         for (const auto& ciclo : ciclos_unicos) {
             cout << "Ciclo: ";
             for (int vertice : ciclo) {
