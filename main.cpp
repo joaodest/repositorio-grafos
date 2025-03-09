@@ -92,7 +92,8 @@ public:
     }
     
     void imprime_com_letras(const vector<vector<int>>& ciclos) {
-        cout << "Ciclos encontrados:" << endl;
+        // cout << "Ciclos encontrados:" << endl;
+        cout << "Ciclos encontrados: " << ciclos.size() << endl;
         for (const auto& ciclo : ciclos) {
             cout << "Ciclo: ";
             for (int vertice : ciclo) {
@@ -111,7 +112,6 @@ public:
         Graph g(6);
          //-//
          g.adicionar_aresta(0, 1);
-         g.adicionar_aresta(0, 2);
          g.adicionar_aresta(0, 3);
          g.adicionar_aresta(0, 4);
          //-//

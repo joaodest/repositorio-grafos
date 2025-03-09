@@ -79,7 +79,6 @@ public:
 int main() {
     Graph g(6);
     g.adicionar_aresta(0, 1);
-    g.adicionar_aresta(0, 2);
     g.adicionar_aresta(0, 3);
     g.adicionar_aresta(0, 4);
     g.adicionar_aresta(1, 3);
